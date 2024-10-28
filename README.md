@@ -1,1 +1,1 @@
-# learning-web-technologies-fall2024-2025-sec-ce
+# AIUB Course: Web Technologies, Section:E
