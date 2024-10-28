@@ -1,1 +1,1 @@
-# AIUB Course: Web Technologies, Section:E
+# Tasks for AIUB Course: Web Technologies
