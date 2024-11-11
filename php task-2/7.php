@@ -36,5 +36,5 @@
         }
         echo "\r\n<br>";
     }
-    print("</td></tr?</table></html>");
+    print("</td></tr></table></html>");
 ?>
