@@ -4,6 +4,6 @@
 
     $area = $length * $width;
     $perimeter = 2 * ($length + $width);    
-    print ("Area is: ".$area."\r\n");
-    print ("Perimeter is: ".$perimeter);
+    print ("Area is: ".$area."\r\n<br>");
+    print ("Perimeter is: ".$perimeter."<br>");
 ?>
