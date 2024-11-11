@@ -13,10 +13,10 @@
 
     if( $flag )
     {
-        echo 'element found';
+        echo 'element found<br>';
     }
     else
     {
-        echo 'element not found';
+        echo 'element not found<br>';
     }
 ?>

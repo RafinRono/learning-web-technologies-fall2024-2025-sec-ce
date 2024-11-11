@@ -4,6 +4,6 @@
 
     $VAT = $amount * $rate;
     $finalPrice = $amount + $VAT;    
-    print ("VAT: ".$VAT." taka\r\n");
-    print ("Total Price: ".$finalPrice." taka");
+    print ("VAT: ".$VAT." taka\r\n<br>");
+    print ("Total Price: ".$finalPrice." taka<br>");
 ?>

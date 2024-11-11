@@ -7,22 +7,22 @@
     {
         if($a > $c)
         {
-            echo $a. " is the largest";
+            echo $a. " is the largest<br>";
         }
         else
         {
-            echo $b. " is the largest";
+            echo $b. " is the largest<br>";
         }
     }
     else
     {
         if($b > $c)
         {
-            echo $b. " is the largest";
+            echo $b. " is the largest<br>";
         }
         else
         {
-            echo $c. " is the largest";
+            echo $c. " is the largest<br>";
         }
     }
 ?>
