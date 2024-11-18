@@ -3,9 +3,14 @@
         if(isset($_POST['blood']))
         {
             $blood = $_POST['blood'];
-        
-            echo "Successful. You chose: ".$blood;
-
+            if ($blood != null)
+            {
+                echo "Successful. You chose: ".$blood;
+            }
+            else
+            {
+                echo "Choose an option first";
+            }
         }
         else
         {
