@@ -5,9 +5,9 @@
         header('location: login.html');  
     }
 
-    if(isset($_REQUEST['id'])){
-        echo $_REQUEST['id'];
-    }
+    // if(isset($_REQUEST['id'])){
+    //     echo $_REQUEST['id'];
+    // }
 
     $user = getUser($_REQUEST['id']);
     $_SESSION['update_id'] = $_REQUEST['id'];
