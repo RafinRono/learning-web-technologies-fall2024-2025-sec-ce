@@ -9,13 +9,12 @@ $_SESSION['update_id'] = $_REQUEST['id'];
 <html>
 <head>
     <title>Edit Page</title>
-    <script src="../asset/edit.js" defer></script>
 </head>
 <body>
     <h2>Edit Author</h2>
     <form id="editForm" onsubmit="return false;">
     Full Name:
-    <input type="text" id="fullname" name="fullname" value="<?= $user['fullname'] ?>" onkeyup="full()" />
+    <input type="text" id="fullname" name="fullname" value="<?= $user['fullname'] ?>" onkeyup="validateFullname()" />
     <p id="fullnameMessage"> </p> 
 
     Username:
@@ -32,6 +31,6 @@ $_SESSION['update_id'] = $_REQUEST['id'];
 
     <input type="button" value="Submit" onclick="ajaxUpdate()" />
 </form>
-
+    <script src="../asset/edit.js"></script>
 </body>
 </html>

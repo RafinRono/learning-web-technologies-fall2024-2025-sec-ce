@@ -30,7 +30,7 @@
 
     function updateUser($id, $username, $fullname, $password, $phone){
         $con = getConnection();
-        $sql = "update authors SET username='$username', fullname='{$fullname}', password='$password', phone=$phone where id='$id'";
+        $sql = "update authors SET username='$username', fullname='{$fullname}', password='$password', contact=$phone where id='$id'";
         if(mysqli_query($con, $sql)){
             return true;
         } else{

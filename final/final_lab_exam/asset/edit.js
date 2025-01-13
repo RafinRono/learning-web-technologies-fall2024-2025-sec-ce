@@ -15,7 +15,7 @@ function validateUsername() {
 }
 
 // Validation for Fullname
-function full() {
+function validateFullname() {
     let fullname = document.getElementById("fullname").value;
     let message = document.getElementById("fullnameMessage");
 
